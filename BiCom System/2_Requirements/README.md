@@ -16,8 +16,13 @@ System shall display Display status of the car
 
 ## LOW LEVEL REQUIREMENTS:
 
+According to the press of Button(1 time) all LED's shall be on or off
 
+According to the press of Button(2 times) LED's shall be off at a time
 
+According to the press of Button(3 times) LED's shall be on in Clockwise Manner
+
+According to the press of Button(4 times) LED's shall be on in Anti-Clockwise Manner
 
 # SWOT ANALYSIS:
 
