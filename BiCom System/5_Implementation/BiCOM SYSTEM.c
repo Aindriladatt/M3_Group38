@@ -1,10 +1,10 @@
-
+/* Work done by Aritra Bose with the help of Aindrila Datta */
 #include "driver_function.h"
 
-static void LEDs_on1(void);  // All LEDs turned on for car lock
-static void LEDs_off1(void); // All LEDs turned off for car unlock
-static void LEDs_clockwise1(void); // All LEDs turned on in a clockwise manner for alarm activ/deactiv
-static void LEDs_Anticlockwise1(void); // All LEDs turned on in an anticlockwise manner for approach light
+static void LEDs_on1(void);  // All LEDs turned on for window status
+static void LEDs_off1(void); // All LEDs turned off for alarm status
+static void LEDs_clockwise1(void); // All LEDs turned on in a clockwise manner for car battery info
+static void LEDs_Anticlockwise1(void); // All LEDs turned on in an anticlockwise manner for door status
 
 static void LEDs_on(void)   
 {
