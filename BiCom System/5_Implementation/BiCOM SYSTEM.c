@@ -73,22 +73,22 @@ int main(void)
 		volatile int encdata = encryption(res); 
 		if (encdata == 6)
 		{
-			LEDs_on();
+			LEDs_on1();
 			res = 0;
 		}
 		else if (encdata == 10)
 		{
-			LEDs_off();
+			LEDs_off1();
 			res = 0;
 		}
 		else if (encdata == 25)
 		{
-			LEDs_clockwise();
+			LEDs_clockwise1();
 			res = 0;
 		}
 		else if (encdata == 34)
 		{
-			LEDs_anticlockwise();
+			LEDs_anticlockwise1();
 			res = 0;
 		}
 	}
