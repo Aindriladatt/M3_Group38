@@ -1,4 +1,4 @@
-
+/* Work done by Aindrila Datta with some references & help */
 #include "driver_function.h"
 
 static void LEDs_on(void);  // All LEDs turned on for car lock
